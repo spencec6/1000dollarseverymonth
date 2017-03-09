@@ -1,0 +1,901 @@
+<svg width="162" height="269" viewBox="0 0 162 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Cran machine</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(2318 -2200)" figma:type="canvas">
+<g id="Cran machine" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Fill" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="translate(-2185 2310)" fill="#7D7D7D" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path1_fill" transform="translate(-2218 2221)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path1_fill" transform="translate(-2269 2221)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path2_fill" transform="translate(-2274 2218)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path2_fill" transform="translate(-2213 2218)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -2272 2223)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="translate(-2316 2252)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path5_fill" transform="translate(-2296 2241)" fill="#7D7D7D" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path6_fill" transform="translate(-2309 2311)" fill="#C4C4C4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" filter="url(#filter0_d)" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="translate(-2266 2206)" fill="url(#paint9_linear)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="translate(-2266 2247)" fill="#8E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path9_fill" transform="translate(-2261 2252)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path10_fill" transform="translate(-2261 2286.33)" fill="#7D7D7D" style="mix-blend-mode:normal;"/>
+</g>
+<g id="buttons" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="row 1" style="mix-blend-mode:normal;" figma:type="symbol">
+<g id="Button Fills" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2299 2441)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2299 2426)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2299 2411)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2299 2396)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2299 2381)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2299 2366)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2299 2351)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2299 2336)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2299 2321)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Text" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="1" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path12_fill" transform="translate(-2298 2442)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="2" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path13_fill" transform="translate(-2298 2427)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="3" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path14_fill" transform="translate(-2298 2412)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="4" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path15_fill" transform="translate(-2298 2397)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="5" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path16_fill" transform="translate(-2298 2382)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="6" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path17_fill" transform="translate(-2298 2367)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="7" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path18_fill" transform="translate(-2298 2352)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="8" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path19_fill" transform="translate(-2298 2337)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="9" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path20_fill" transform="translate(-2298 2322)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Strokes" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path21_stroke" transform="translate(-2299 2441)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path21_stroke" transform="translate(-2299 2426)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path21_stroke" transform="translate(-2299 2411)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path21_stroke" transform="translate(-2299 2396)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path21_stroke" transform="translate(-2299 2381)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path21_stroke" transform="translate(-2299 2366)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path21_stroke" transform="translate(-2299 2351)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path21_stroke" transform="translate(-2299 2336)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path21_stroke" transform="translate(-2299 2321)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<g id="row 2" style="mix-blend-mode:normal;" figma:type="instance">
+<g id="Button Fills" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2284 2441)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2284 2426)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2284 2411)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2284 2396)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2284 2381)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2284 2366)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2284 2351)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2284 2336)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2284 2321)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Text" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="1" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path23_fill" transform="translate(-2283 2442)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="2" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path24_fill" transform="translate(-2283 2427)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="3" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path25_fill" transform="translate(-2283 2412)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="4" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path26_fill" transform="translate(-2283 2397)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="5" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path27_fill" transform="translate(-2283 2382)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="6" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path28_fill" transform="translate(-2283 2367)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="7" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path29_fill" transform="translate(-2283 2352)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="8" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path30_fill" transform="translate(-2283 2337)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="9" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path31_fill" transform="translate(-2283 2322)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Strokes" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2284 2441)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2284 2426)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2284 2411)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2284 2396)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2284 2381)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2284 2366)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2284 2351)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2284 2336)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2284 2321)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<g id="row 3" style="mix-blend-mode:normal;" figma:type="instance">
+<g id="Button Fills" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2269 2441)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2269 2426)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2269 2411)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2269 2396)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2269 2381)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2269 2366)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2269 2351)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2269 2336)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2269 2321)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Text" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="1" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path23_fill" transform="translate(-2268 2442)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="2" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path24_fill" transform="translate(-2268 2427)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="3" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path25_fill" transform="translate(-2268 2412)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="4" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path26_fill" transform="translate(-2268 2397)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="5" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path27_fill" transform="translate(-2268 2382)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="6" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path28_fill" transform="translate(-2268 2367)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="7" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path29_fill" transform="translate(-2268 2352)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="8" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path30_fill" transform="translate(-2268 2337)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="9" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path31_fill" transform="translate(-2268 2322)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Strokes" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2269 2441)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2269 2426)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2269 2411)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2269 2396)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2269 2381)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2269 2366)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2269 2351)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2269 2336)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2269 2321)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<g id="row 4" style="mix-blend-mode:normal;" figma:type="instance">
+<g id="Button Fills" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2254 2441)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2254 2426)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2254 2411)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2254 2396)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2254 2381)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2254 2366)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2254 2351)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2254 2336)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2254 2321)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Text" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="1" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path23_fill" transform="translate(-2253 2442)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="2" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path24_fill" transform="translate(-2253 2427)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="3" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path25_fill" transform="translate(-2253 2412)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="4" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path26_fill" transform="translate(-2253 2397)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="5" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path27_fill" transform="translate(-2253 2382)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="6" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path28_fill" transform="translate(-2253 2367)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="7" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path29_fill" transform="translate(-2253 2352)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="8" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path30_fill" transform="translate(-2253 2337)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="9" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path31_fill" transform="translate(-2253 2322)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Strokes" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2254 2441)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2254 2426)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2254 2411)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2254 2396)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2254 2381)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2254 2366)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2254 2351)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2254 2336)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2254 2321)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<g id="row 5" style="mix-blend-mode:normal;" figma:type="instance">
+<g id="Button Fills" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2239 2441)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2239 2426)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2239 2411)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2239 2396)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2239 2381)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2239 2366)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2239 2351)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2239 2336)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2239 2321)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Text" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="1" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path23_fill" transform="translate(-2238 2442)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="2" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path24_fill" transform="translate(-2238 2427)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="3" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path25_fill" transform="translate(-2238 2412)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="4" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path26_fill" transform="translate(-2238 2397)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="5" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path27_fill" transform="translate(-2238 2382)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="6" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path28_fill" transform="translate(-2238 2367)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="7" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path29_fill" transform="translate(-2238 2352)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="8" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path30_fill" transform="translate(-2238 2337)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="9" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path31_fill" transform="translate(-2238 2322)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Strokes" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2239 2441)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2239 2426)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2239 2411)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2239 2396)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2239 2381)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2239 2366)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2239 2351)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2239 2336)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2239 2321)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<g id="row 6" style="mix-blend-mode:normal;" figma:type="instance">
+<g id="Button Fills" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2224 2441)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2224 2426)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2224 2411)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2224 2396)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2224 2381)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2224 2366)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2224 2351)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2224 2336)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2224 2321)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Text" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="1" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path23_fill" transform="translate(-2223 2442)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="2" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path24_fill" transform="translate(-2223 2427)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="3" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path25_fill" transform="translate(-2223 2412)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="4" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path26_fill" transform="translate(-2223 2397)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="5" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path27_fill" transform="translate(-2223 2382)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="6" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path28_fill" transform="translate(-2223 2367)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="7" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path29_fill" transform="translate(-2223 2352)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="8" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path30_fill" transform="translate(-2223 2337)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="9" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path31_fill" transform="translate(-2223 2322)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Strokes" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2224 2441)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2224 2426)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2224 2411)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2224 2396)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2224 2381)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2224 2366)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2224 2351)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2224 2336)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2224 2321)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<g id="row 7" style="mix-blend-mode:normal;" figma:type="instance">
+<g id="Button Fills" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2209 2441)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2209 2426)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2209 2411)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2209 2396)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2209 2381)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2209 2366)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2209 2351)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2209 2336)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2209 2321)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Text" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="1" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path23_fill" transform="translate(-2208 2442)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="2" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path24_fill" transform="translate(-2208 2427)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="3" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path25_fill" transform="translate(-2208 2412)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="4" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path26_fill" transform="translate(-2208 2397)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="5" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path27_fill" transform="translate(-2208 2382)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="6" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path28_fill" transform="translate(-2208 2367)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="7" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path29_fill" transform="translate(-2208 2352)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="8" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path30_fill" transform="translate(-2208 2337)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="9" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path31_fill" transform="translate(-2208 2322)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Strokes" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2209 2441)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2209 2426)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2209 2411)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2209 2396)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2209 2381)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2209 2366)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2209 2351)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2209 2336)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2209 2321)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<g id="row 8" style="mix-blend-mode:normal;" figma:type="instance">
+<g id="Button Fills" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2194 2441)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2194 2426)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2194 2411)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2194 2396)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2194 2381)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2194 2366)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2194 2351)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2194 2336)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path22_fill" transform="translate(-2194 2321)" fill="#A4A4A4" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Text" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="1" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path23_fill" transform="translate(-2193 2442)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="2" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path24_fill" transform="translate(-2193 2427)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="3" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path25_fill" transform="translate(-2193 2412)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="4" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path26_fill" transform="translate(-2193 2397)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="5" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path27_fill" transform="translate(-2193 2382)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="6" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path28_fill" transform="translate(-2193 2367)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="7" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path29_fill" transform="translate(-2193 2352)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="8" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path30_fill" transform="translate(-2193 2337)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="9" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path31_fill" transform="translate(-2193 2322)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Button Strokes" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2194 2441)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2194 2426)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2194 2411)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2194 2396)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2194 2381)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2194 2366)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2194 2351)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2194 2336)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 20" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path32_stroke" transform="translate(-2194 2321)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<g id="Ellipse 21" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path33_fill" transform="translate(-2309 2278)" fill="#C4C4C4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 21" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2300 2287)" fill="#7D7D7D" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 21" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path33_fill" transform="translate(-2203 2278)" fill="#C4C4C4" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 21" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path11_fill" transform="translate(-2193 2287)" fill="#7D7D7D" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" filter="url(#filter1_d)" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="translate(-2266 2206.5)" fill="url(#paint233_linear)" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Strokes" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path34_stroke" transform="translate(-2168 2310)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path35_stroke" transform="translate(-2316 2252)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path36_stroke" transform="translate(-2296 2241)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path37_stroke" transform="translate(-2309 2311)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" filter="url(#filter2_d)" figma:type="rounded-rectangle">
+<use xlink:href="#path38_stroke" transform="translate(-2266 2206)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path39_stroke" transform="translate(-2266 2247)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path40_stroke" transform="translate(-2261 2252)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 13" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path41_stroke" transform="translate(-2261 2286.33)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 21" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path42_stroke" transform="translate(-2309 2278)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 21" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path43_stroke" transform="translate(-2300 2287)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 21" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path42_stroke" transform="translate(-2203 2278)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 21" style="mix-blend-mode:normal;" figma:type="ellipse">
+<use xlink:href="#path43_stroke" transform="translate(-2193 2287)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-2270" y="2202" width="56" height="39" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="0" y="0" size="4" spread="0" color="0,0,0,0.25" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="0"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_d" filterUnits="userSpaceOnUse" x="-2270" y="2202" width="56" height="40" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="0" y="0" size="4" spread="0" color="0,0,0,0.25" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="0"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter2_d" filterUnits="userSpaceOnUse" x="-2272" y="2200" width="61" height="43" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="0" y="0" size="4" spread="0" color="0,0,0,0.25" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="0"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint9_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.93915e-15 31 -48 1.8982e-15 48 -1.8982e-15)">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint233_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.93915e-15 31 -48 1.8982e-15 48 -1.8982e-15)">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="0.7" stop-color="#E5E5E5"/>
+<stop offset="1" stop-color="#A4A4A4"/>
+</linearGradient>
+<path id="path0_fill" d="M 0 10C 0 4.47715 4.47715 0 10 0L 17 0C 22.5228 0 27 4.47715 27 10L 27 41C 27 46.5228 22.5228 51 17 51L 10 51C 4.47715 51 0 46.5228 0 41L 0 10Z"/>
+<path id="path1_fill" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0C 2.32843 0 3 0.671573 3 1.5L 3 49.5C 3 50.3284 2.32843 51 1.5 51C 0.671573 51 0 50.3284 0 49.5L 0 1.5Z"/>
+<path id="path2_fill" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0C 2.32843 0 3 0.671573 3 1.5L 3 6.5C 3 7.32843 2.32843 8 1.5 8C 0.671573 8 0 7.32843 0 6.5L 0 1.5Z"/>
+<path id="path3_fill" d="M 0 1C 0 0.447715 0.447715 0 1 0C 1.55228 0 2 0.447715 2 1L 2 59C 2 59.5523 1.55228 60 1 60C 0.447715 60 0 59.5523 0 59L 0 1Z"/>
+<path id="path4_fill" d="M 0 10C 0 4.47715 4.47715 0 10 0L 138 0C 143.523 0 148 4.47715 148 10L 148 205C 148 210.523 143.523 215 138 215L 10 215C 4.47715 215 0 210.523 0 205L 0 10Z"/>
+<path id="path5_fill" d="M 0 10C 0 4.47715 4.47715 0 10 0L 98 0C 103.523 0 108 4.47715 108 10L 108 64C 108 69.5229 103.523 74 98 74L 10 74C 4.47715 74 0 69.5229 0 64L 0 10Z"/>
+<path id="path6_fill" d="M 0 10C 0 4.47715 4.47715 0 10 0L 124 0C 129.523 0 134 4.47715 134 10L 134 140C 134 145.523 129.523 150 124 150L 10 150C 4.47715 150 0 145.523 0 140L 0 10Z"/>
+<path id="path7_fill" d="M 0 4C 0 1.79086 1.79086 0 4 0L 44 0C 46.2091 0 48 1.79086 48 4L 48 27C 48 29.2091 46.2091 31 44 31L 4 31C 1.79086 31 0 29.2091 0 27L 0 4Z"/>
+<path id="path8_fill" d="M 0 10C 0 4.47715 4.47715 0 10 0L 38 0C 43.5228 0 48 4.47715 48 10L 48 49C 48 54.5228 43.5228 59 38 59L 10 59C 4.47715 59 0 54.5228 0 49L 0 10Z"/>
+<path id="path9_fill" d="M 0 10C 0 4.47715 4.47715 0 10 0L 28 0C 33.5228 0 38 4.47715 38 10L 38 19C 38 24.5228 33.5228 29 28 29L 10 29C 4.47715 29 0 24.5228 0 19L 0 10Z"/>
+<path id="path10_fill" d="M 0 7.02381C 0 3.14467 3.14467 0 7.02381 0L 30.9762 0C 34.8553 0 38 3.14467 38 7.02381C 38 10.903 34.8553 14.0476 30.9762 14.0476L 7.02381 14.0476C 3.14467 14.0476 0 10.903 0 7.02381Z"/>
+<path id="path11_fill" d="M 10 5C 10 7.76142 7.76142 10 5 10C 2.23858 10 0 7.76142 0 5C 0 2.23858 2.23858 0 5 0C 7.76142 0 10 2.23858 10 5Z"/>
+<path id="path12_fill" d="M 3.77373 5.886C 3.77373 5.946 3.82173 6 3.88773 6L 4.40373 6C 4.46373 6 4.51173 5.946 4.51173 5.886L 4.51173 2.034C 4.51173 1.974 4.46373 1.92 4.40373 1.92L 3.98373 1.92L 3.11973 2.646C 3.09573 2.67 3.08373 2.706 3.08973 2.754L 3.12573 3.048C 3.13173 3.102 3.19173 3.138 3.24573 3.126L 3.77373 3.012L 3.77373 5.886Z"/>
+<path id="path13_fill" d="M 2.63327 5.886C 2.63327 5.946 2.68127 6 2.74727 6L 5.11127 6C 5.17127 6 5.22527 5.946 5.22527 5.886L 5.22527 5.472C 5.22527 5.412 5.17127 5.358 5.11127 5.358L 3.81527 5.358C 4.13327 4.956 4.58927 4.392 4.84727 4.026C 5.08127 3.69 5.24927 3.444 5.24927 3.054C 5.24927 2.406 4.76927 1.86 3.91127 1.86C 3.19727 1.86 2.72927 2.448 2.72927 2.448C 2.68727 2.496 2.69927 2.568 2.73527 2.604L 3.02327 2.892C 3.07127 2.94 3.13727 2.94 3.18527 2.892C 3.32327 2.742 3.56927 2.538 3.85727 2.538C 4.28927 2.538 4.49327 2.814 4.49327 3.084C 4.49327 3.288 4.37327 3.522 4.18727 3.75C 3.78527 4.284 3.02927 5.268 2.63327 5.748L 2.63327 5.886Z"/>
+<path id="path14_fill" d="M 2.64862 5.526C 2.78062 5.682 3.14662 6.06 3.89662 6.06C 4.72462 6.06 5.27662 5.568 5.27662 4.89C 5.27662 4.356 4.83262 4.032 4.55062 3.912L 4.55062 3.894C 4.82062 3.768 5.16862 3.42 5.16862 2.958C 5.16862 2.286 4.58662 1.86 3.89062 1.86C 3.21862 1.86 2.76262 2.388 2.76262 2.388C 2.72062 2.43 2.71462 2.502 2.76262 2.544L 3.05662 2.82C 3.11062 2.868 3.17662 2.862 3.21862 2.814C 3.32062 2.694 3.51262 2.526 3.82462 2.526C 4.13062 2.526 4.40662 2.748 4.40662 3.078C 4.40662 3.384 4.15462 3.63 3.66262 3.63L 3.32662 3.63C 3.25462 3.63 3.21262 3.672 3.21262 3.75L 3.21262 4.128C 3.21262 4.2 3.26062 4.248 3.32662 4.248L 3.66262 4.248C 4.20262 4.248 4.49062 4.53 4.49062 4.842C 4.49062 5.172 4.17862 5.406 3.85462 5.406C 3.48862 5.406 3.13462 5.106 3.11662 5.082C 3.06862 5.034 3.01462 5.034 2.96062 5.082L 2.65462 5.376C 2.61862 5.418 2.61262 5.484 2.64862 5.526Z"/>
+<path id="path15_fill" d="M 2.41996 5.13L 4.27396 5.13L 4.27396 5.886C 4.27396 5.946 4.32796 6 4.38796 6L 4.88596 6C 4.94596 6 4.99996 5.946 4.99996 5.886L 4.99396 5.118L 5.47396 5.118C 5.53996 5.118 5.58796 5.064 5.58796 5.004L 5.58796 4.632C 5.58796 4.572 5.53996 4.524 5.47396 4.524L 4.99396 4.524L 4.99396 1.968C 4.99396 1.902 4.93996 1.854 4.87996 1.854L 4.55596 1.854C 4.51396 1.854 4.48396 1.872 4.46596 1.89L 2.30596 4.518L 2.30596 5.016C 2.30596 5.076 2.35396 5.13 2.41996 5.13ZM 3.09796 4.506L 4.29796 3.066L 4.29796 4.506L 3.09796 4.506Z"/>
+<path id="path16_fill" d="M 2.75704 5.562C 2.90704 5.742 3.29704 6.06 3.93904 6.06C 4.76704 6.06 5.39104 5.436 5.39104 4.686C 5.39104 3.9 4.86904 3.354 4.01704 3.354L 3.50104 3.354L 3.50104 2.556L 4.83304 2.556C 4.89904 2.556 4.94704 2.502 4.94704 2.442L 4.94704 2.034C 4.94704 1.974 4.89904 1.92 4.83304 1.92L 2.93704 1.92C 2.87104 1.92 2.82304 1.974 2.82304 2.034L 2.82304 3.804C 2.82304 3.9 2.88904 4.014 3.00904 4.014L 3.93304 4.014C 4.40704 4.014 4.65904 4.314 4.65904 4.686C 4.65904 5.064 4.37104 5.394 3.96304 5.394C 3.56104 5.394 3.21304 5.082 3.18904 5.058C 3.14104 5.016 3.08704 5.028 3.04504 5.064L 2.74504 5.358C 2.67304 5.43 2.67904 5.472 2.75704 5.562Z"/>
+<path id="path17_fill" d="M 2.64081 4.404C 2.64081 5.304 3.12681 6.06 4.06881 6.06C 4.80681 6.06 5.42481 5.442 5.42481 4.686C 5.42481 3.828 4.80081 3.384 4.20081 3.384C 3.91881 3.384 3.61881 3.492 3.51681 3.552C 3.70281 2.892 4.55481 2.49 4.83681 2.4C 4.95081 2.364 4.97481 2.298 4.94481 2.226L 4.80681 1.872C 4.78281 1.794 4.72281 1.764 4.63881 1.788C 4.12281 1.956 2.64081 2.652 2.64081 4.404ZM 4.06281 5.376C 3.57681 5.376 3.36081 4.902 3.36081 4.494C 3.42681 4.278 3.66081 3.972 4.05681 3.972C 4.44081 3.972 4.74681 4.29 4.74681 4.674C 4.74681 5.052 4.44081 5.376 4.06281 5.376Z"/>
+<path id="path18_fill" d="M 2.86487 5.886C 2.86487 5.982 2.94287 6 3.01488 6L 3.45887 6C 3.56087 6 3.62088 5.934 3.66288 5.838L 5.45087 2.076L 5.45087 2.034C 5.45087 1.974 5.39687 1.92 5.33688 1.92L 2.84087 1.92C 2.78088 1.92 2.72687 1.974 2.72687 2.034L 2.72687 2.454C 2.72687 2.514 2.78088 2.568 2.84087 2.568L 4.42487 2.568L 2.86487 5.82L 2.86487 5.886Z"/>
+<path id="path19_fill" d="M 2.57985 4.908C 2.57985 5.562 3.13185 6.06 3.98985 6.06C 4.87185 6.06 5.42385 5.562 5.42385 4.908C 5.42385 4.392 4.96785 4.044 4.69785 3.906L 4.69785 3.882C 4.94385 3.738 5.31585 3.414 5.31585 2.958C 5.31585 2.292 4.73985 1.86 3.98985 1.86C 3.26385 1.86 2.68785 2.292 2.68785 2.958C 2.68785 3.426 3.05985 3.756 3.30585 3.888L 3.30585 3.906C 3.13785 3.99 2.57985 4.386 2.57985 4.908ZM 4.00185 3.558C 3.62385 3.468 3.45585 3.258 3.45585 2.988C 3.45585 2.7 3.70185 2.478 3.98985 2.478C 4.30185 2.478 4.54785 2.7 4.54785 2.988C 4.54785 3.246 4.37385 3.474 4.00185 3.558ZM 3.37785 4.896C 3.37785 4.626 3.59985 4.35 4.00185 4.26C 4.40385 4.35 4.62585 4.626 4.62585 4.896C 4.62585 5.226 4.33185 5.448 4.00185 5.448C 3.67785 5.448 3.37785 5.226 3.37785 4.896Z"/>
+<path id="path20_fill" d="M 3.05481 5.658L 3.19281 6.012C 3.21681 6.09 3.27681 6.12 3.36081 6.096C 3.87681 5.928 5.35881 5.232 5.35881 3.48C 5.35881 2.58 4.87281 1.824 3.93081 1.824C 3.19281 1.824 2.57481 2.442 2.57481 3.198C 2.57481 4.056 3.19881 4.5 3.79881 4.5C 4.08081 4.5 4.38081 4.392 4.48281 4.332C 4.29681 4.992 3.44481 5.394 3.16281 5.484C 3.04881 5.52 3.02481 5.586 3.05481 5.658ZM 3.94281 3.912C 3.55881 3.912 3.25281 3.594 3.25281 3.21C 3.25281 2.832 3.55881 2.508 3.93681 2.508C 4.42281 2.508 4.63881 2.982 4.63881 3.39C 4.57281 3.606 4.33881 3.912 3.94281 3.912Z"/>
+<path id="path21_stroke" d="M 9 5C 9 7.20914 7.20914 9 5 9L 5 11C 8.31371 11 11 8.31371 11 5L 9 5ZM 5 9C 2.79086 9 1 7.20914 1 5L -1 5C -1 8.31371 1.68629 11 5 11L 5 9ZM 1 5C 1 2.79086 2.79086 1 5 1L 5 -1C 1.68629 -1 -1 1.68629 -1 5L 1 5ZM 5 1C 7.20914 1 9 2.79086 9 5L 11 5C 11 1.68629 8.31371 -1 5 -1L 5 1Z"/>
+<path id="path22_fill" d="M 10 5C 10 7.76142 7.76142 10 5 10C 2.23858 10 0 7.76142 0 5C 0 2.23858 2.23858 0 5 0C 7.76142 0 10 2.23858 10 5Z"/>
+<path id="path23_fill" d="M 3.77373 5.886C 3.77373 5.946 3.82173 6 3.88773 6L 4.40373 6C 4.46373 6 4.51173 5.946 4.51173 5.886L 4.51173 2.034C 4.51173 1.974 4.46373 1.92 4.40373 1.92L 3.98373 1.92L 3.11973 2.646C 3.09573 2.67 3.08373 2.706 3.08973 2.754L 3.12573 3.048C 3.13173 3.102 3.19173 3.138 3.24573 3.126L 3.77373 3.012L 3.77373 5.886Z"/>
+<path id="path24_fill" d="M 2.63327 5.886C 2.63327 5.946 2.68127 6 2.74727 6L 5.11127 6C 5.17127 6 5.22527 5.946 5.22527 5.886L 5.22527 5.472C 5.22527 5.412 5.17127 5.358 5.11127 5.358L 3.81527 5.358C 4.13327 4.956 4.58927 4.392 4.84727 4.026C 5.08127 3.69 5.24927 3.444 5.24927 3.054C 5.24927 2.406 4.76927 1.86 3.91127 1.86C 3.19727 1.86 2.72927 2.448 2.72927 2.448C 2.68727 2.496 2.69927 2.568 2.73527 2.604L 3.02327 2.892C 3.07127 2.94 3.13727 2.94 3.18527 2.892C 3.32327 2.742 3.56927 2.538 3.85727 2.538C 4.28927 2.538 4.49327 2.814 4.49327 3.084C 4.49327 3.288 4.37327 3.522 4.18727 3.75C 3.78527 4.284 3.02927 5.268 2.63327 5.748L 2.63327 5.886Z"/>
+<path id="path25_fill" d="M 2.64862 5.526C 2.78062 5.682 3.14662 6.06 3.89662 6.06C 4.72462 6.06 5.27662 5.568 5.27662 4.89C 5.27662 4.356 4.83262 4.032 4.55062 3.912L 4.55062 3.894C 4.82062 3.768 5.16862 3.42 5.16862 2.958C 5.16862 2.286 4.58662 1.86 3.89062 1.86C 3.21862 1.86 2.76262 2.388 2.76262 2.388C 2.72062 2.43 2.71462 2.502 2.76262 2.544L 3.05662 2.82C 3.11062 2.868 3.17662 2.862 3.21862 2.814C 3.32062 2.694 3.51262 2.526 3.82462 2.526C 4.13062 2.526 4.40662 2.748 4.40662 3.078C 4.40662 3.384 4.15462 3.63 3.66262 3.63L 3.32662 3.63C 3.25462 3.63 3.21262 3.672 3.21262 3.75L 3.21262 4.128C 3.21262 4.2 3.26062 4.248 3.32662 4.248L 3.66262 4.248C 4.20262 4.248 4.49062 4.53 4.49062 4.842C 4.49062 5.172 4.17862 5.406 3.85462 5.406C 3.48862 5.406 3.13462 5.106 3.11662 5.082C 3.06862 5.034 3.01462 5.034 2.96062 5.082L 2.65462 5.376C 2.61862 5.418 2.61262 5.484 2.64862 5.526Z"/>
+<path id="path26_fill" d="M 2.41996 5.13L 4.27396 5.13L 4.27396 5.886C 4.27396 5.946 4.32796 6 4.38796 6L 4.88596 6C 4.94596 6 4.99996 5.946 4.99996 5.886L 4.99396 5.118L 5.47396 5.118C 5.53996 5.118 5.58796 5.064 5.58796 5.004L 5.58796 4.632C 5.58796 4.572 5.53996 4.524 5.47396 4.524L 4.99396 4.524L 4.99396 1.968C 4.99396 1.902 4.93996 1.854 4.87996 1.854L 4.55596 1.854C 4.51396 1.854 4.48396 1.872 4.46596 1.89L 2.30596 4.518L 2.30596 5.016C 2.30596 5.076 2.35396 5.13 2.41996 5.13ZM 3.09796 4.506L 4.29796 3.066L 4.29796 4.506L 3.09796 4.506Z"/>
+<path id="path27_fill" d="M 2.75704 5.562C 2.90704 5.742 3.29704 6.06 3.93904 6.06C 4.76704 6.06 5.39104 5.436 5.39104 4.686C 5.39104 3.9 4.86904 3.354 4.01704 3.354L 3.50104 3.354L 3.50104 2.556L 4.83304 2.556C 4.89904 2.556 4.94704 2.502 4.94704 2.442L 4.94704 2.034C 4.94704 1.974 4.89904 1.92 4.83304 1.92L 2.93704 1.92C 2.87104 1.92 2.82304 1.974 2.82304 2.034L 2.82304 3.804C 2.82304 3.9 2.88904 4.014 3.00904 4.014L 3.93304 4.014C 4.40704 4.014 4.65904 4.314 4.65904 4.686C 4.65904 5.064 4.37104 5.394 3.96304 5.394C 3.56104 5.394 3.21304 5.082 3.18904 5.058C 3.14104 5.016 3.08704 5.028 3.04504 5.064L 2.74504 5.358C 2.67304 5.43 2.67904 5.472 2.75704 5.562Z"/>
+<path id="path28_fill" d="M 2.64081 4.404C 2.64081 5.304 3.12681 6.06 4.06881 6.06C 4.80681 6.06 5.42481 5.442 5.42481 4.686C 5.42481 3.828 4.80081 3.384 4.20081 3.384C 3.91881 3.384 3.61881 3.492 3.51681 3.552C 3.70281 2.892 4.55481 2.49 4.83681 2.4C 4.95081 2.364 4.97481 2.298 4.94481 2.226L 4.80681 1.872C 4.78281 1.794 4.72281 1.764 4.63881 1.788C 4.12281 1.956 2.64081 2.652 2.64081 4.404ZM 4.06281 5.376C 3.57681 5.376 3.36081 4.902 3.36081 4.494C 3.42681 4.278 3.66081 3.972 4.05681 3.972C 4.44081 3.972 4.74681 4.29 4.74681 4.674C 4.74681 5.052 4.44081 5.376 4.06281 5.376Z"/>
+<path id="path29_fill" d="M 2.86488 5.886C 2.86488 5.982 2.94287 6 3.01487 6L 3.45887 6C 3.56088 6 3.62087 5.934 3.66288 5.838L 5.45087 2.076L 5.45087 2.034C 5.45087 1.974 5.39687 1.92 5.33688 1.92L 2.84088 1.92C 2.78087 1.92 2.72688 1.974 2.72688 2.034L 2.72688 2.454C 2.72688 2.514 2.78087 2.568 2.84088 2.568L 4.42488 2.568L 2.86488 5.82L 2.86488 5.886Z"/>
+<path id="path30_fill" d="M 2.57985 4.908C 2.57985 5.562 3.13185 6.06 3.98985 6.06C 4.87185 6.06 5.42385 5.562 5.42385 4.908C 5.42385 4.392 4.96785 4.044 4.69785 3.906L 4.69785 3.882C 4.94385 3.738 5.31585 3.414 5.31585 2.958C 5.31585 2.292 4.73985 1.86 3.98985 1.86C 3.26385 1.86 2.68785 2.292 2.68785 2.958C 2.68785 3.426 3.05985 3.756 3.30585 3.888L 3.30585 3.906C 3.13785 3.99 2.57985 4.386 2.57985 4.908ZM 4.00185 3.558C 3.62385 3.468 3.45585 3.258 3.45585 2.988C 3.45585 2.7 3.70185 2.478 3.98985 2.478C 4.30185 2.478 4.54785 2.7 4.54785 2.988C 4.54785 3.246 4.37385 3.474 4.00185 3.558ZM 3.37785 4.896C 3.37785 4.626 3.59985 4.35 4.00185 4.26C 4.40385 4.35 4.62585 4.626 4.62585 4.896C 4.62585 5.226 4.33185 5.448 4.00185 5.448C 3.67785 5.448 3.37785 5.226 3.37785 4.896Z"/>
+<path id="path31_fill" d="M 3.05481 5.658L 3.19281 6.012C 3.21681 6.09 3.27681 6.12 3.36081 6.096C 3.87681 5.928 5.35881 5.232 5.35881 3.48C 5.35881 2.58 4.87281 1.824 3.93081 1.824C 3.19281 1.824 2.57481 2.442 2.57481 3.198C 2.57481 4.056 3.19881 4.5 3.79881 4.5C 4.08081 4.5 4.38081 4.392 4.48281 4.332C 4.29681 4.992 3.44481 5.394 3.16281 5.484C 3.04881 5.52 3.02481 5.586 3.05481 5.658ZM 3.94281 3.912C 3.55881 3.912 3.25281 3.594 3.25281 3.21C 3.25281 2.832 3.55881 2.508 3.93681 2.508C 4.42281 2.508 4.63881 2.982 4.63881 3.39C 4.57281 3.606 4.33881 3.912 3.94281 3.912Z"/>
+<path id="path32_stroke" d="M 9 5C 9 7.20914 7.20914 9 5 9L 5 11C 8.31371 11 11 8.31371 11 5L 9 5ZM 5 9C 2.79086 9 1 7.20914 1 5L -1 5C -1 8.31371 1.68629 11 5 11L 5 9ZM 1 5C 1 2.79086 2.79086 1 5 1L 5 -1C 1.68629 -1 -1 1.68629 -1 5L 1 5ZM 5 1C 7.20914 1 9 2.79086 9 5L 11 5C 11 1.68629 8.31371 -1 5 -1L 5 1Z"/>
+<path id="path33_fill" d="M 28 14C 28 21.732 21.732 28 14 28C 6.26801 28 0 21.732 0 14C 0 6.26801 6.26801 0 14 0C 21.732 0 28 6.26801 28 14Z"/>
+<path id="path34_stroke" d="M 8 10L 8 41L 12 41L 12 10L 8 10ZM 12 10C 12 3.37258 6.62742 -2 0 -2L 0 2C 4.41828 2 8 5.58172 8 10L 12 10ZM 8 41C 8 45.4183 4.41828 49 0 49L 0 53C 6.62742 53 12 47.6274 12 41L 8 41Z"/>
+<path id="path35_stroke" d="M 19.75 2C 20.8546 2 21.75 1.10457 21.75 0C 21.75 -1.10457 20.8546 -2 19.75 -2L 19.75 2ZM 128.5 -2C 127.395 -2 126.5 -1.10457 126.5 0C 126.5 1.10457 127.395 2 128.5 2L 128.5 -2ZM 146 10L 146 205L 150 205L 150 10L 146 10ZM 138 213L 10 213L 10 217L 138 217L 138 213ZM 2 205L 2 10L -2 10L -2 205L 2 205ZM 10 2L 19.75 2L 19.75 -2L 10 -2L 10 2ZM 128.5 2L 138 2L 138 -2L 128.5 -2L 128.5 2ZM 2 10C 2 5.58172 5.58172 2 10 2L 10 -2C 3.37258 -2 -2 3.37258 -2 10L 2 10ZM 150 10C 150 3.37258 144.627 -2 138 -2L 138 2C 142.418 2 146 5.58172 146 10L 150 10ZM 146 205C 146 209.418 142.418 213 138 213L 138 217C 144.627 217 150 211.627 150 205L 146 205ZM 10 213C 5.58172 213 2 209.418 2 205L -2 205C -2 211.627 3.37258 217 10 217L 10 213Z"/>
+<path id="path36_stroke" d="M 106 70C 106 71.1046 106.895 72 108 72C 109.105 72 110 71.1046 110 70L 106 70ZM -2 70C -2 71.1046 -1.10457 72 0 72C 1.10457 72 2 71.1046 2 70L -2 70ZM 106 37C 106 38.1046 106.895 39 108 39C 109.105 39 110 38.1046 110 37L 106 37ZM 110 65.5C 110 64.3954 109.105 63.5 108 63.5C 106.895 63.5 106 64.3954 106 65.5L 110 65.5ZM 2 65.5C 2 64.3954 1.10457 63.5 0 63.5C -1.10457 63.5 -2 64.3954 -2 65.5L 2 65.5ZM -2 37C -2 38.1046 -1.10457 39 0 39C 1.10457 39 2 38.1046 2 37L -2 37ZM 10 2L 98 2L 98 -2L 10 -2L 10 2ZM 106 10L 106 37L 110 37L 110 10L 106 10ZM 106 65.5L 106 70L 110 70L 110 65.5L 106 65.5ZM 2 70L 2 65.5L -2 65.5L -2 70L 2 70ZM 2 37L 2 10L -2 10L -2 37L 2 37ZM 10 -2C 3.37258 -2 -2 3.37258 -2 10L 2 10C 2 5.58172 5.58172 2 10 2L 10 -2ZM 98 2C 102.418 2 106 5.58172 106 10L 110 10C 110 3.37258 104.627 -2 98 -2L 98 2Z"/>
+<path id="path37_stroke" d="M 10 2L 124 2L 124 -2L 10 -2L 10 2ZM 132 10L 132 140L 136 140L 136 10L 132 10ZM 124 148L 10 148L 10 152L 124 152L 124 148ZM 2 140L 2 10L -2 10L -2 140L 2 140ZM 10 -2C 3.37258 -2 -2 3.37258 -2 10L 2 10C 2 5.58172 5.58172 2 10 2L 10 -2ZM 124 2C 128.418 2 132 5.58172 132 10L 136 10C 136 3.37258 130.627 -2 124 -2L 124 2ZM 132 140C 132 144.418 128.418 148 124 148L 124 152C 130.627 152 136 146.627 136 140L 132 140ZM 10 148C 5.58172 148 2 144.418 2 140L -2 140C -2 146.627 3.37258 152 10 152L 10 148Z"/>
+<path id="path38_stroke" d="M 4 2L 44 2L 44 -2L 4 -2L 4 2ZM 46 4L 46 27L 50 27L 50 4L 46 4ZM 44 29L 4 29L 4 33L 44 33L 44 29ZM 2 27L 2 4L -2 4L -2 27L 2 27ZM 4 -2C 0.686292 -2 -2 0.686292 -2 4L 2 4C 2 2.89543 2.89543 2 4 2L 4 -2ZM 44 2C 45.1046 2 46 2.89543 46 4L 50 4C 50 0.686292 47.3137 -2 44 -2L 44 2ZM 46 27C 46 28.1046 45.1046 29 44 29L 44 33C 47.3137 33 50 30.3137 50 27L 46 27ZM 4 29C 2.89543 29 2 28.1046 2 27L -2 27C -2 30.3137 0.686292 33 4 33L 4 29Z"/>
+<path id="path39_stroke" d="M 10 2L 38 2L 38 -2L 10 -2L 10 2ZM 46 10L 46 49L 50 49L 50 10L 46 10ZM 38 57L 10 57L 10 61L 38 61L 38 57ZM 2 49L 2 10L -2 10L -2 49L 2 49ZM 10 -2C 3.37258 -2 -2 3.37258 -2 10L 2 10C 2 5.58172 5.58172 2 10 2L 10 -2ZM 38 2C 42.4183 2 46 5.58172 46 10L 50 10C 50 3.37258 44.6274 -2 38 -2L 38 2ZM 46 49C 46 53.4183 42.4183 57 38 57L 38 61C 44.6274 61 50 55.6274 50 49L 46 49ZM 10 57C 5.58172 57 2 53.4183 2 49L -2 49C -2 55.6274 3.37258 61 10 61L 10 57Z"/>
+<path id="path40_stroke" d="M 10 2L 28 2L 28 -2L 10 -2L 10 2ZM 36 10L 36 19L 40 19L 40 10L 36 10ZM 28 27L 10 27L 10 31L 28 31L 28 27ZM 2 19L 2 10L -2 10L -2 19L 2 19ZM 10 -2C 3.37258 -2 -2 3.37258 -2 10L 2 10C 2 5.58172 5.58172 2 10 2L 10 -2ZM 28 2C 32.4183 2 36 5.58172 36 10L 40 10C 40 3.37258 34.6274 -2 28 -2L 28 2ZM 36 19C 36 23.4183 32.4183 27 28 27L 28 31C 34.6274 31 40 25.6274 40 19L 36 19ZM 10 27C 5.58172 27 2 23.4183 2 19L -2 19C -2 25.6274 3.37258 31 10 31L 10 27Z"/>
+<path id="path41_stroke" d="M 7.02381 2L 30.9762 2L 30.9762 -2L 7.02381 -2L 7.02381 2ZM 30.9762 12.0476L 7.02381 12.0476L 7.02381 16.0476L 30.9762 16.0476L 30.9762 12.0476ZM 7.02381 -2C 2.0401 -2 -2 2.0401 -2 7.02381L 2 7.02381C 2 4.24924 4.24924 2 7.02381 2L 7.02381 -2ZM 30.9762 2C 33.7508 2 36 4.24924 36 7.02381L 40 7.02381C 40 2.0401 35.9599 -2 30.9762 -2L 30.9762 2ZM 36 7.02381C 36 9.79838 33.7508 12.0476 30.9762 12.0476L 30.9762 16.0476C 35.9599 16.0476 40 12.0075 40 7.02381L 36 7.02381ZM 7.02381 12.0476C 4.24924 12.0476 2 9.79838 2 7.02381L -2 7.02381C -2 12.0075 2.0401 16.0476 7.02381 16.0476L 7.02381 12.0476Z"/>
+<path id="path42_stroke" d="M 26 14C 26 20.6274 20.6274 26 14 26L 14 30C 22.8366 30 30 22.8366 30 14L 26 14ZM 14 26C 7.37258 26 2 20.6274 2 14L -2 14C -2 22.8366 5.16344 30 14 30L 14 26ZM 2 14C 2 7.37258 7.37258 2 14 2L 14 -2C 5.16344 -2 -2 5.16344 -2 14L 2 14ZM 14 2C 20.6274 2 26 7.37258 26 14L 30 14C 30 5.16344 22.8366 -2 14 -2L 14 2Z"/>
+<path id="path43_stroke" d="M 8 5C 8 6.65685 6.65685 8 5 8L 5 12C 8.86599 12 12 8.86599 12 5L 8 5ZM 5 8C 3.34315 8 2 6.65685 2 5L -2 5C -2 8.86599 1.13401 12 5 12L 5 8ZM 2 5C 2 3.34315 3.34315 2 5 2L 5 -2C 1.13401 -2 -2 1.13401 -2 5L 2 5ZM 5 2C 6.65685 2 8 3.34315 8 5L 12 5C 12 1.13401 8.86599 -2 5 -2L 5 2Z"/>
+</defs>
+</svg>

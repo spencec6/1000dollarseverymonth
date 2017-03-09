@@ -1,0 +1,34 @@
+<svg width="112" height="30" viewBox="0 0 112 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(1693 -900)" figma:type="canvas">
+<g id="logo" style="mix-blend-mode:normal;" figma:type="symbol">
+<g id="Rectangle 3" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="translate(-1693 901)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 3" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path1_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -1690 918)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Subtract" style="mix-blend-mode:normal;" figma:type="vector-operation">
+<use xlink:href="#path2_fill" transform="translate(-1681 900)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 3" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path1_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -1656 918)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Subtract" style="mix-blend-mode:normal;" figma:type="vector-operation">
+<use xlink:href="#path2_fill" transform="translate(-1646 900)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 3" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path1_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -1620 918)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Subtract" style="mix-blend-mode:normal;" figma:type="vector-operation">
+<use xlink:href="#path2_fill" transform="translate(-1611 900)" fill="#500960" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 2C 0 0.895431 0.895431 0 2 0L 3 0C 4.10457 0 5 0.895431 5 2L 5 26C 5 27.1046 4.10457 28 3 28L 2 28C 0.895431 28 0 27.1046 0 26L 0 2Z"/>
+<path id="path1_fill" d="M 0 2C 0 0.895431 0.895431 0 2 0L 3 0C 4.10457 0 5 0.895431 5 2L 5 12C 5 13.1046 4.10457 14 3 14L 2 14C 0.895431 14 0 13.1046 0 12L 0 2Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 15 30C 23.2843 30 30 23.2843 30 15C 30 6.7157 23.2843 0 15 0C 6.7157 0 0 6.7157 0 15C 0 23.2843 6.7157 30 15 30ZM 15 25C 20.5228 25 25 20.5228 25 15C 25 9.47717 20.5228 5 15 5C 9.47717 5 5 9.47717 5 15C 5 20.5228 9.47717 25 15 25Z"/>
+</defs>
+</svg>

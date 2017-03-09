@@ -1,0 +1,107 @@
+- var x = 60
+- var frames = 10
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title $1000 Every Month
+    meta(name='description', content='$1000 Every Month')
+    meta(name='Colin Spence', content='The Universal Basic Income Project')
+    link(rel='stylesheet', href='styles.css')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js')
+    script(src='https://use.typekit.net/tld1tjx.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    script(src='output.min.js')
+  body
+    .mainNav
+      .header
+        .logo
+      .rightMenu
+        .signUp Sign Me Up
+        .mainNavMenu
+    .sideNav
+      .frame-container
+        - for (var i=0; i<frames; i++)
+          .frame
+            .icon
+    main
+      .wrapper
+        .content
+          .imagery
+            .illo-background
+            .illustration-group.moneycrate
+              .illustration.parachute
+              .illustration.cloud1
+              .illustration.cloud2
+            .illustration-group.catch
+              .illustration.net
+            .illustration-group.sloth
+              .illustration.slothbody
+              .illustration.slotharm
+              .illustration.slothspill
+            .illustration-group.motivation
+              .illustration.carrot
+              .illustration.stick
+            .illustration-group.moneytree
+              .illustration.money-tree
+              - for (var i=0; i<10; i++)
+                .illustration.dollabill
+            .illustration-group.research
+              .illustration.cran
+              .illustration.arm
+              .illustration.handle
+              .illustration.paper
+          .text-wrapper
+            .headline
+            .message
+        .tab.rotate
+          .scroll-arrow.hide
+            svg(viewbox='0 0 100 50')
+              polyline.line(points='0,0 50,50 100,0')
+        .footer.hide
+          .option-section
+            .option
+              .selection
+                svg.survey-option(viewbox='0 0 50 50')
+                  circle.fill(cx='25', cy='25', r='23.252')
+                  circle.stroke(cx='25', cy='25', r='23.252')
+                  polyline.checkmark(points='13,24 24,36 46,-5 ')
+              .option-text
+                span.answer Yes.
+                span.description Sign me up now!
+            .option
+              .selection
+                 svg.survey-option(viewbox='0 0 50 50')
+                    circle.fill(cx='25', cy='25', r='23.252')
+                    circle.stroke(cx='25', cy='25', r='23.252')
+                    polyline.checkmark(points='13,24 24,36 46,-5 ')
+              .option-text
+                span.answer Sure.
+                span.description But there's obviously a catch.
+            .option
+              .selection
+                 svg.survey-option(viewbox='0 0 50 50')
+                    circle.fill(cx='25', cy='25', r='23.252')
+                    circle.stroke(cx='25', cy='25', r='23.252')
+                    polyline.checkmark(points='13,24 24,36 46,-5 ')
+              .option-text
+                span.answer No.
+                span.description I'm content with my current finances.
+    .background-pattern
+      - for (var i=1; i<=x; i++)
+        .pattern.dot
+        .pattern.star
+          svg(viewbox='0 0 50 50')
+            g.star-illo
+              polyline.line(points='0,50 30,50')
+              polyline.line(points='70,50 100,50')
+              polyline.line(points='50,0 50,30')
+              polyline.line(points='50,70 50,100')
+              polyline.line(points='15,15 25,25')
+              polyline.line(points='85,85 75,75')
+              polyline.line(points='85,15 75,25')
+              polyline.line(points='15,85 25,75')
+        .pattern.circle

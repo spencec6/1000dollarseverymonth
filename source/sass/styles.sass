@@ -1,0 +1,659 @@
+@import "bourbon/bourbon"
+@import "mobile-component/mobile-component"
+
+//////////////////////////
+//  MIXINS & VARIABLES  //
+//////////////////////////
+
+// COLOR PALETTE
+$aqua: #3EC7D9
+$turquoise: #1CF6C8
+$futa: #2EE2D3
+$violet: #500960
+$orange: #F2AD22
+$fire: #F26222
+$color-palette: $aqua $turquoise $futa $violet $orange $fire
+
+// TYPOGRAPHY
+$font1: "brandon-grotesque", "avenir", sans-serif
+$font2: "roboto-mono", courier, sans-serif
+
+// IMAGES
+$logo: url("images/logo.svg")
+$crate: url("images/crate.svg")
+$cloud1: url("images/cloud1.svg")
+$cloud2: url("images/cloud2.svg")
+$net: url("images/catch-net.svg")
+$slothspill: url("images/sloth-spill.svg")
+$slothbody: url("images/sloth-body.svg")
+$slotharm: url("images/sloth-hanging-arm.svg")
+$motivation-stick: url("images/stick.svg")
+$motivation-carrot: url("images/carrot.svg")
+$moneytree: url("images/money-tree.svg")
+$dollabill: url("images/dollabill.svg")
+$accounting-machine: url("images/accounting-machine.svg")
+
+$icons: crate, net, sloth, carrot, moneytree, research
+
+// GRID
+$gu: 50px
+
+// -------------------------------------------- //
+
+.mainNav
+  position: fixed
+  top: 0
+  display: flex
+  align-items: center
+  z-index: 20
+  height: $gu
+  width: calc(100vw - #{$gu})
+  color: $turquoise
+  background-color: #fff
+  font: 500 18px $font1
+  line-height: $gu
+  text-transform: uppercase
+  text-align: center
+  padding-left: $gu
+
+.rightMenu
+  display: flex
+  flex-wrap: no-wrap
+  .signUp
+    transition: background-color 0.25s ease
+    flex-wrap: no-wrap
+    cursor: pointer
+    width: $gu*3
+    height: auto
+    display: block
+    color: #fff
+    background-color: $violet
+    &:hover
+      background-color: tint($violet, 10%)
+
+.mainNavMenu
+  width: $gu
+  height: $gu
+
+.header
+  z-index: 10
+  width: calc(100% - #{$gu*4})
+
+.logo
+  transition: opacity 0.25s ease
+  background: $logo no-repeat center left
+  background-size: contain
+  width: $gu*3
+  height: 30px
+  cursor: pointer
+  &:hover
+    opacity: 0.9
+
+.sideNav
+  @include position(fixed, $gu 0 0 null)
+  width: $gu
+  background-color: rgba(shade($turquoise, 20%), 0.3)
+
+.frame-container
+  display: flex
+  flex-wrap: wrap
+  align-content: center
+  height: 100%
+
+.frame
+  width: $gu
+  height: $gu
+  @each $iconimage in $icons
+    &:nth-child(#{index($icons, $iconimage)}) .revealed
+      background-image: url('images/icons/#{$iconimage}-icon.svg')
+  & .icon
+    @include position(relative, 50% null null 50%)
+    transition: all 0.5s
+    transform: translate(-50%,-50%)
+    width: $gu/5
+    height: $gu/5
+    border-radius: 50%
+    border: 3px solid #fff
+    opacity: 0.5
+    background-color: transparent
+    &.revealed
+      border-radius: 0
+      border: none
+      width: 30px
+      height: 30px
+      background-size: contain
+      background-position: center
+      background-repeat: no-repeat
+      cursor: pointer
+      &:hover
+        opacity: 0.8
+      &.selected
+        width: 40px
+        height: 40px
+        transform-origin: center
+        opacity: 1
+        cursor: inherit
+        &:hover
+          opacity: 1
+
+main
+  .headline, .message, .option, .illo-background
+    opacity: 1
+    transition: opacity 0.5s
+  .illo-background
+    transition: opacity 5s 0.75s
+  &.hide
+    .headline, .message, .option, .illo-background
+      opacity: 0
+      transition: opacity 0.5s
+    .footer, .tab
+      transform: translate(-50%,100%)
+
+.wrapper
+  width: 70%
+  max-width: 900px
+  margin: 150px auto 0
+
+.content
+  width: 50%
+
+.text-wrapper
+  text-shadow: 0 3px 15px rgba(shade($futa, 5%), 0.4)
+  color: #fff
+
+.headline
+  font: 500 65px/1 $font1
+@media #{$portrait}
+  .headline
+    font-size: 12vmin
+
+.message
+  letter-spacing: 0.5px
+  font: 100 18px/1.4 $font1
+  margin-top: 20px
+  .numerals
+    font-family: $font2
+    margin: 20px 0 20px -20px
+    padding: 40px 20px
+    background-color: rgba(#fff, 0.9)
+    color: $violet
+    text-shadow: none
+    border-radius: 40px
+    .description
+      font: 100 16px $font2
+      opacity: 0.7
+    .single
+      padding-left: 27px
+      &:nth-child(even)
+        font-weight: 500
+    .result
+      font-weight: 400
+      padding-top: 5px
+      margin: 5px 0 20px 27px
+      width: calc(100% - 54px)
+      margin-left: 30px
+      display: inline-block
+      border-top: 1px solid $violet
+      .single
+        padding-left: 0
+      strong
+        .single
+          padding-left: 3px
+          font-size: 30px
+  & a
+    color: $violet
+    &:hover
+      color: tint($violet, 10%)
+@media #{$portrait}
+  .message
+    font-size: 3vmin
+
+.imagery, .illo-background
+  width: $gu*8
+  height: $gu*8
+@media #{$computer}
+  .imagery, .illo-background
+    width: $gu*5
+    height: $gu*5
+@media #{$portrait}
+  .imagery
+    position: inherit !important
+    margin: 0 auto 8vh
+    transform: translateX(0) !important
+
+.illo-background
+  border-radius: 50%
+  background-image: linear-gradient(-155deg, rgba(255,255,255,0.05), rgba(255,255,255,0.6))
+
+.imagery
+  @include position(fixed, 200px 50% null null)
+  transform: translateX(140%)
+  z-index: 0
+@media #{$computer}
+  .imagery
+    top: 130px
+  .illustration
+    z-index: 10
+    width: 100%
+    height: 110%
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
+    position: absolute
+    &.parachute
+      background-image: $crate
+      @include position(absolute, -15% null null 20%)
+      transform: rotate(25deg)
+      transform-origin: center top
+      animation: blow 15s ease-in-out infinite
+    &.cloud1, &.cloud2
+      width: 100%
+      height: 35%
+      opacity: 0.9
+      animation: float 18s ease-in-out infinite
+    &.cloud1
+      background-image: $cloud1
+      animation-duration: 25s
+      @include position(absolute, -2% 50% null null)
+      z-index: 1
+      #cloud
+        fill: red
+    &.cloud2
+      background-image: $cloud2
+      @include position(absolute, null null -6% 49%)
+    &.net
+      background-image: $net
+      width: 58%
+      height: 106%
+      top: -20%
+      right: -40%
+      transform-origin: 25% 100%
+      animation: catch 8s infinite
+    &.slothbody
+      background-image: $slothbody
+      top: -30%
+    &.slotharm
+      z-index: 2
+      background-image: $slotharm
+      width: 27%
+      height: 37%
+      bottom: 14%
+      left: 11%
+      transform-origin: center top
+      animation: swing 20s infinite
+    &.slothspill
+      z-index: 1
+      background-image: $slothspill
+      width: 80%
+      height: 24%
+      bottom: -5%
+      right: 2%
+    &.carrot
+      background-image: $motivation-carrot
+      top: 9%
+      right: -11%
+      transform-origin: center top
+      animation: swing 5s infinite
+    &.stick
+      background-image: $motivation-stick
+      top: -50%
+    &.money-tree
+      background-image: $moneytree
+      width: 120%
+      height: 120%
+      bottom: -7%
+      right: -12%
+    &.dollabill
+      @include position(fixed, 20% 20% null null)
+      background-image: $dollabill
+      width: 10%
+      height: 14%
+      transform-origin: -30% center
+      @for $i from 1 through 10
+        &:nth-of-type(#{$i})
+          $dur: random(17)+7
+          $del: random(10)+0
+          top: random(30)+20%
+          left: random(80)+5%
+          animation: fall #{$dur}s #{$del}s infinite
+    &.cran
+      background-image: $accounting-machine
+      background-repeat: no-repeat
+      background-size: contain
+      height: 100%
+      width: 61%
+      left: 50%
+      top: 50%
+      z-index: 1
+    &.paper
+      width: 16%
+      height: 40%
+      top: 30%
+      left: 48.5%
+      background-color: #fff
+      border-radius: 10px
+      border: 5px solid $violet
+      z-index: 0
+      animation: paper-roll 5s infinite
+    &.arm
+      position: absolute
+      width: 2%
+      height: 30%
+      background-color: $violet
+      border-radius: 4px
+      top: 21%
+      right: 19%
+      transform-origin: bottom center
+      animation: crank-arm 5s infinite
+    &.handle
+      z-index: 2
+      position: absolute
+      width: 10%
+      height: 5%
+      background-color: $violet
+      border-radius: 4px
+      top: 23%
+      right: 5%
+      animation: crank-handle 5s infinite
+
+.illustration-group
+  display: none
+
+.illustration-group.research .illustration
+  transform: translate(-50%, -50%)
+
+.tab
+  transition: bottom 1s ease
+  @include position(fixed, null null -10px 3%)
+  @include size(70px)
+  background-color: #fff
+  border-radius: 50%
+  box-shadow: 0 0 30px rgba($futa, 0.5)
+  cursor: pointer
+  z-index: 3
+  transform: rotate(180deg)
+  &.hide
+    bottom: -120px
+  &.rotate
+    transform: rotate(0deg)
+  &:hover .line
+    stroke: $futa
+    @include size(110px)
+
+.scroll-arrow
+  @include position(absolute, null 50% 45% null)
+  transform: translate(50%,50%)
+  width: 35px
+  height: 25px
+  .line
+    transition: stroke 0.25s ease
+    stroke: $violet
+    stroke-width: 12px
+    fill: transparent
+
+.footer
+  transition: opacity 2s ease
+  opacity: 1
+  z-index: 2
+  width: 110%
+  max-width: 950px
+  height: 400px
+  margin-left: -5%
+  overflow: hidden
+  &.fade
+    transition: opacity 0s
+    opacity: 0
+  &:before
+    transition: margin 2s ease
+    content: ""
+    display: block
+    width: 100%
+    height: 600px
+    margin-top: 15px
+    background: white
+    border-radius: 50%
+    transform: rotate(6deg)
+  &.hide
+    &:before
+      margin-top: 60%
+@media #{$computer}
+  .footer
+    height: 300px
+    &:before
+      height: 445px
+
+.option-section
+  position: relative
+  transform: translateY(-50%)
+  bottom: 90%
+  left: 10%
+  width: 75%
+  display: flex
+  flex-direction: column
+  justify-content: center
+@media #{$iphone-portrait}
+  .option-section
+    bottom: 100px
+
+.option
+  height: 60px
+  display: flex
+  align-items: center
+  &:last-child
+    margin-bottom: 0
+  &:nth-of-type(1) .stroke
+    transform: translateY(-$gu/10) rotate(322deg)
+  &:nth-of-type(2) .stroke
+    transform: translateY(-$gu/10) rotate(-172deg)
+
+.selection
+  width: 40px
+  height: 40px
+
+.survey-option
+  @include position(absolute, 50% null null 50%)
+  transform: translate(-50%,-50%)
+  overflow: visible
+  position: relative
+  cursor: pointer
+  &:hover
+    .fill
+      fill: shade($futa, 3%)
+    .stroke
+      transform: translateY(-$gu/7) rotate(-25deg)
+  &.animate
+    .stroke
+      stroke-dashoffset: -260
+  &.select
+    .stroke
+      transform: translateY(0)
+    .fill
+      opacity: 0
+    .checkmark
+      stroke: $futa
+      stroke-dashoffset: -69
+      transition: stroke 0.5s 0.4s, stroke-dashoffset 0.75s 0.5s ease
+
+.stroke
+  fill: transparent
+  stroke: $violet
+  stroke-linecap: round
+  stroke-linejoin: round
+  stroke-width: 4
+  stroke-dasharray: 1,5,50,5,65
+  transform: translateY(-$gu/10) rotate(-267deg)
+  transform-origin: center
+  transition: stroke-dashoffset 0.5s, transform 0.25s
+
+.fill
+  transition: fill 0.25s, opacity 0.5s 0.25s
+  fill: $futa
+  opacity: 1
+
+.checkmark
+  fill: transparent
+  stroke: transparent
+  stroke-width: 5
+  stroke-linecap: round
+  stroke-linejoin: round
+  stroke-dasharray: 0,100,0,10,55,12
+  stroke-dashoffset: 0
+  transition: stroke 0.1s 0s, stroke-dashoffset 0.1s 0s
+
+.option-text
+  margin-left: 15px
+  .answer
+    font: 600 40px $font1
+    color: $violet
+  .description
+    margin-left: 10px
+    font: 300 20px $font1
+    color: $futa
+@media #{$iphone-portrait}
+  .option-text
+    height: 8vmin
+    .answer
+      font-size: 5vmin
+    .description
+      font: 300 4vmin/0.9 $font1
+
+.background-pattern
+  z-index: -1
+  position: fixed
+
+@for $i from 1 through 180
+  .pattern:nth-child(#{$i})
+    $ph: random(90)+5
+    $pl: random(85)+5
+    $w: random(6)+4px
+    $rc: #fff
+    $o: 0.2
+    @if $pl > 60 and $ph < 60
+      $rc: nth($color-palette, random(5))
+      $o: (random(20)/100)+0.7
+    @if $pl < 50 or $pl > 90
+      $o: (random(60)/100)-0.15
+    @else
+      $o: (random(80)/100)+0.2
+    $r: random(80)+35
+    position: fixed
+    top: $ph+0.5%
+    left: $pl+0.5%
+    width: $w
+    height: $w
+    opacity: $o
+    &.star svg
+      width: $w
+      height: $w
+      .star-illo
+      transform: rotate(#{$r}deg)
+      .line
+        stroke-width: $w+2
+        stroke: $rc
+    &.dot
+      background-color: $rc
+
+    &.circle
+      border: 2px solid $rc
+
+.dot,.circle
+  border-radius: 50%
+
+svg
+  overflow: visible
+
+.star-illo
+  transform-origin: center
+
+.line
+  stroke-linecap: round
+  stroke-linejoin: round
+
+html
+  min-height: 100%
+
+body
+  height: 100%
+  margin: 0
+  background-attachment: fixed
+  background-repeat: no-repeat
+  background: linear-gradient(to left, $turquoise, $aqua)
+
+//////////////////////////
+// KEYFRAMES ANIMATIONS //
+//////////////////////////
+
+@keyframes blow
+  0%, 100%
+    transform: rotate(25deg)
+  50%
+    transform-origin: left top
+    transform: rotate(12deg)
+
+@keyframes float
+  0%, 100%
+    transform: translate(0%,0%)
+  25%
+    transform: translate(-3%,-4%)
+  50%
+    transform: translate(2%,3%)
+  75%
+    transform: translate(-4%,-2%)
+
+@keyframes swing
+  0%, 100%
+    transform: rotate(-12deg)
+  50%
+    transform: rotate(12deg)
+
+@keyframes catch
+  0, 100%
+    transform: rotate(0deg)
+  15%, 25%
+    transform: rotate(-90deg)
+
+@keyframes fall
+  0%, 100%
+    opacity: 1
+    top: 20%
+    transform: rotate(0deg)
+  0%, 20%, 40%, 60%, 80%, 100%
+    right: 15%
+    transform: rotate(30deg)
+  10%, 30%, 50%, 70%, 90%
+    right: 35%
+    transform: rotate(140deg)
+  98%
+    opacity: 1
+    top: 105vh
+  98.5%
+    opacity: 0
+    top: 105vh
+  99%
+    opacity: 0
+    top: 20%
+
+@keyframes paper-roll
+  0%, 100%
+    opacity: 1
+    top: 30%
+  75%
+    opacity: 1
+  90%
+    top: -5%
+  95%
+    opacity: 0
+  99%
+    opacity: 0
+
+@keyframes crank-arm
+  0%,100%
+    transform: scaleY(1)
+  50%
+    transform: scaleY(-1)
+
+@keyframes crank-handle
+  0%,100%
+    top: 23%
+  50%
+    top: 79%

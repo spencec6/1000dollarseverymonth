@@ -1,0 +1,94 @@
+/* Smartphones  -----------
+$smartphone: "only screen and (min-device-width: 320px) and (max-device-width: 480px)"
+$smartphone-landscape: "only screen and (min-width: 321px)"
+$smartphone-portrait: "only screen and (max-width: 320px)"
+
+/* iPads -----------
+$ipad: "only screen and (min-device-width: 768px) and (max-device-width: 1024px)"
+$ipad-landscape: "only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)"
+$ipad-portrait: "only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)"
+
+/* Mobile -------------
+$mobile: "#{ipad}, #{smartphone}"
+$portrait: "#{ipad-portrait}, #{smartphone-portrait}"
+$landscape: "#{ipad-landscape}, #{smartphone-landscape}"
+
+/* Desktops and laptops -----------
+$computer: "only screen and (min-width: 1224px)"
+$desktop-lg: "only screen and (min-width: 1824px)"
+
+
+
+
+
+
+
+
+
+//=================
+// iPad Media Queries
+//=================
+// All iPads
+$ipad: "only screen and (min-device-width : 768px) and (max-device-width : 1024px)"
+$ipad-landscape: "#{$ipad} and (orientation : landscape)"
+$ipad-portrait: "#{$ipad} and (orientation : portrait)"
+
+// Non-retina iPads (includes iPad Mini non-retina)
+$ipad-old: "#{$ipad} and (-webkit-min-device-pixel-ratio: 1)"
+$ipad-old-landscape: "#{$ipad-old} and (orientation : landscape)"
+$ipad-old-portrait: "#{$ipad-old} and (orientation : portrait)"
+
+// Retina iPads
+$ipad-retina: "#{$ipad} and (-webkit-min-device-pixel-ratio: 2)"
+$ipad-retina-landscape: "#{$ipad-retina} and (orientation : landscape)"
+$ipad-retina-portrait: "#{$ipad-retina} and (orientation : portrait)"
+
+//=================
+// iPhone Media Queries
+//=================
+// iPhone 6 Plus
+$iphone-6p: "only screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3)"
+$iphone-6p-landscape: "#{$iphone-6p} and (orientation : landscape)"
+$iphone-6p-portrait: "#{$iphone-6p} and (orientation : portrait)"
+
+// iPhone 6
+$iphone-6: "only screen and (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2)"
+$iphone-6-landscape: "#{$iphone-6} and (orientation : landscape)"
+$iphone-6-portrait: "#{$iphone-6} and (orientation : portrait)"
+
+// iPhone 5/5C/5S
+$iphone-5: "only screen and (min-device-width : 320px) and (max-device-width : 568px) and (device-aspect-ratio: 40/71)"
+$iphone-5-landscape: "#{$iphone-5} and (orientation : landscape)"
+$iphone-5-portrait: "#{$iphone-5} and (orientation : portrait)"
+
+// iPhone 2G/3G/3GS/4/4S
+$iphone-4: "only screen and (min-device-width : 320px) and (max-device-width : 480px) and (device-aspect-ratio: 2/3)"
+$iphone-4-landscape: "#{$iphone-4} and (orientation : landscape)"
+$iphone-4-portrait: "#{$iphone-4} and (orientation : portrait)"
+
+//=================
+// General Media Queries
+//=================
+
+// Check -> iPad Media Queries - All iPads
+
+// All iPhones
+$iphone: "#{$iphone-6p}, #{$iphone-6}, #{$iphone-5}, #{$iphone-4}"
+$iphone-landscape: "#{$iphone-6p-landscape}, #{$iphone-6-landscape}, #{$iphone-5-landscape}, #{$iphone-4-landscape}"
+$iphone-portrait: "#{$iphone-6p-portrait}, #{$iphone-6-portrait}, #{$iphone-5-portrait}, #{$iphone-4-portrait}"
+
+// Screen orientations:
+$landscape: "#{$iphone-landscape}, #{$ipad-landscape}"
+$portrait: "#{$iphone-portrait}, #{$ipad-portrait}"
+
+// All Mobiles
+$mobile: "#{$landscape}, #{$portrait}"
+
+// Very generic mobile screens, can cover some Android devices
+$mobile-phone-general-s: "only screen and (min-device-width : 320px) and (max-device-width : 480px)"
+$mobile-phone-general-s-landscape: "#{$mobile-phone-general-s} and (orientation : landscape)"
+$mobile-phone-general-s-portrait: "#{$mobile-phone-general-s} and (orientation : portrait)"
+
+$mobile-phone-general-l: "only screen and (min-device-width : 320px) and (max-device-width : 640px)"
+$mobile-phone-general-l-landscape: "#{$mobile-phone-general-l} and (orientation : landscape)"
+$mobile-phone-general-l-portrait: "#{$mobile-phone-general-l} and (orientation : portrait)"
