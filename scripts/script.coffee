@@ -239,7 +239,7 @@ $(document).ready ->
       o++
     if isNaN(f)
       f = goToEnding(f)
-      footer.addClass("hide")
+      transitionFooter()
     setTimeout ->
       header.html(CONTENT.header[f])
       message.html(CONTENT.message[f])
@@ -256,11 +256,27 @@ $(document).ready ->
       sessionStorage.setItem("frame", f++)
       # save current frame as a session state
       setTimeout =>
-        footer.removeClass("hide")
-        positionFooter("onload")
+        showFooter() if scrolledDown()
         main.removeClass("hide")
       , 500
     , 2000
+
+  scrolledDown = ->
+    return doc.scrollTop() + win.height() > doc.height() - 50
+
+  hideFooter = (evt) ->
+    console.log "hide " + evt
+    footer.addClass("hide")
+    tab.addClass("hide")
+    setTimeout (-> tab.removeClass("hide rotate")), 1000 unless evt == "half"
+
+  showFooter = ->
+    console.log "show"
+    tab.addClass("hide rotate")
+    setTimeout ->
+      footer.removeClass("hide")
+      tab.removeClass("hide")
+    , 1000
 
   showContent = (cntnt, nmbr, time) ->
     #cntnt = the content that you want to show
@@ -289,27 +305,6 @@ $(document).ready ->
     selectedEnding = Number(f.replace("end",""))
     return CONTENT.options.length - END + selectedEnding - 1
 
-  positionFooter = (evt) ->
-#    if the window is larger than the wrapper,
-#    calculate the amount of space needed to push the footer
-#    to the bottom of the window and addd it as a padding-top property to the footer.
-#    otherwise, just add 20px at the end of the content.
-    if win.height() > wrapper.height()
-      console.log "larger: " + win.height() + " / " + wrapper.height()
-      extraPad = win.height() - wrapper.height() - CONTENT_MARGIN
-      currentPad = Number(footer.css("padding-top").replace("px",""))
-      newPad = extraPad + currentPad
-      if newPad > 10
-        footer.css("padding-top", "#{newPad}px")
-    else
-      console.log "smaller: " + win.height() + " / " +  wrapper.height()
-      footer.css("padding-top", "20px")
-#      else
-#        if evt == "onload"
-#          footer.addClass("fade")
-#        wrapper.css("margin-top","#{CONTENT_MARGIN + newPad}px")
-#        imagery.css("top", "#{CONTENT_MARGIN + newPad}px")
-
 # -- ONLOAD
 
 #  transitionContent(sessionStorage.getItem("frame"))
@@ -324,7 +319,7 @@ $(document).ready ->
     surveyOption.eq(idx).addClass("animate select")
 
     setTimeout ->
-      footer.addClass("hide")
+      hideFooter('half')
       setTimeout (->
         changeFrameTo = CONTENT.options[sessionStorage.getItem("frame")][idx][1]
         transitionContent(changeFrameTo)
@@ -347,12 +342,8 @@ $(document).ready ->
   signup.click ->
     transitionContent("end1")
 
-  win.resize ->
-    positionFooter()
-
-#  win.scroll ->
-#    if doc.height() - win.height() > win.scrollTop() - 50 && footer.hasClass("fade")
-#      footer.removeClass("fade")
+  win.scroll ->
+    showFooter() if scrolledDown()
 
   if window.addEventListener
     kkeys = []

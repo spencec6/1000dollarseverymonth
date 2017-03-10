@@ -31,7 +31,7 @@
   END = max;
 
   $(document).ready(function() {
-    var CONTENT_MARGIN, doc, footer, goToEnding, header, icon, illoGroup, imagery, kkeys, konami, logo, main, message, optionContent, optionText, positionFooter, removeContent, showContent, signup, surveyOption, tab, transitionContent, win, wrapper;
+    var CONTENT_MARGIN, doc, footer, goToEnding, header, hideFooter, icon, illoGroup, imagery, kkeys, konami, logo, main, message, optionContent, optionText, removeContent, scrolledDown, showContent, showFooter, signup, surveyOption, tab, transitionContent, win, wrapper;
     header = $(".headline");
     message = $(".message");
     logo = $(".logo");
@@ -65,7 +65,7 @@
       }
       if (isNaN(f)) {
         f = goToEnding(f);
-        footer.addClass("hide");
+        transitionFooter();
       }
       return setTimeout(function() {
         header.html(CONTENT.header[f]);
@@ -81,12 +81,34 @@
         sessionStorage.setItem("frame", f++);
         return setTimeout((function(_this) {
           return function() {
-            footer.removeClass("hide");
-            positionFooter("onload");
+            if (scrolledDown()) {
+              showFooter();
+            }
             return main.removeClass("hide");
           };
         })(this), 500);
       }, 2000);
+    };
+    scrolledDown = function() {
+      return doc.scrollTop() + win.height() > doc.height() - 50;
+    };
+    hideFooter = function(evt) {
+      console.log("hide " + evt);
+      footer.addClass("hide");
+      tab.addClass("hide");
+      if (evt !== "half") {
+        return setTimeout((function() {
+          return tab.removeClass("hide rotate");
+        }), 1000);
+      }
+    };
+    showFooter = function() {
+      console.log("show");
+      tab.addClass("hide rotate");
+      return setTimeout(function() {
+        footer.removeClass("hide");
+        return tab.removeClass("hide");
+      }, 1000);
     };
     showContent = function(cntnt, nmbr, time) {
       var results, x;
@@ -119,21 +141,6 @@
       selectedEnding = Number(f.replace("end", ""));
       return CONTENT.options.length - END + selectedEnding - 1;
     };
-    positionFooter = function(evt) {
-      var currentPad, extraPad, newPad;
-      if (win.height() > wrapper.height()) {
-        console.log("larger: " + win.height() + " / " + wrapper.height());
-        extraPad = win.height() - wrapper.height() - CONTENT_MARGIN;
-        currentPad = Number(footer.css("padding-top").replace("px", ""));
-        newPad = extraPad + currentPad;
-        if (newPad > 10) {
-          return footer.css("padding-top", newPad + "px");
-        }
-      } else {
-        console.log("smaller: " + win.height() + " / " + wrapper.height());
-        return footer.css("padding-top", "20px");
-      }
-    };
     transitionContent(0);
     surveyOption.click(function() {
       var idx;
@@ -141,7 +148,7 @@
       surveyOption.removeClass("animate select");
       surveyOption.eq(idx).addClass("animate select");
       return setTimeout(function() {
-        footer.addClass("hide");
+        hideFooter('half');
         return setTimeout((function() {
           var changeFrameTo;
           changeFrameTo = CONTENT.options[sessionStorage.getItem("frame")][idx][1];
@@ -171,8 +178,10 @@
     signup.click(function() {
       return transitionContent("end1");
     });
-    win.resize(function() {
-      return positionFooter();
+    win.scroll(function() {
+      if (scrolledDown()) {
+        return showFooter();
+      }
     });
     if (window.addEventListener) {
       kkeys = [];

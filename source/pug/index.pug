@@ -1,4 +1,4 @@
-- var x = 60
+- var dots = 30
 - var frames = 10
 
 doctype html
@@ -55,10 +55,11 @@ html(lang='en')
               .illustration.handle
               .illustration.paper
           .text-wrapper
+          .text-wrapper
             .headline
             .message
-        .tab.rotate
-          .scroll-arrow.hide
+        .tab.hide
+          .scroll-arrow
             svg(viewbox='0 0 100 50')
               polyline.line(points='0,0 50,50 100,0')
         .footer.hide
@@ -91,7 +92,7 @@ html(lang='en')
                 span.answer No.
                 span.description I'm content with my current finances.
     .background-pattern
-      - for (var i=1; i<=x; i++)
+      - for (var i=1; i<=dots; i++)
         .pattern.dot
         .pattern.star
           svg(viewbox='0 0 50 50')
