@@ -627,16 +627,15 @@ body
     top: 20%
 
 @keyframes paper-roll
-  0%, 100%
+  0%, 95%
+    opacity: 0
+  1%, 100%
     opacity: 1
     top: 30%
   75%
     opacity: 1
   90%
     top: -5%
-  95%
-    opacity: 0
-  99%
     opacity: 0
 
 @keyframes crank-arm
@@ -648,5 +647,16 @@ body
 @keyframes crank-handle
   0%,100%
     top: 23%
+  25%
+    width: 12%
+    height: 7%
+    right: 3%
   50%
     top: 79%
+    width: 10%
+    height: 5%
+    right: 5%
+  75%
+    width: 8%
+    height: 3%
+    right: 9%

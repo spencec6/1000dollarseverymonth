@@ -31,7 +31,7 @@
   END = max;
 
   $(document).ready(function() {
-    var CONTENT_MARGIN, doc, footer, goToEnding, header, hideFooter, icon, illoGroup, imagery, kkeys, konami, logo, main, message, optionContent, optionText, removeContent, scrolledDown, showContent, showFooter, signup, surveyOption, tab, transitionContent, win, wrapper;
+    var CONTENT_MARGIN, doc, footer, goToEnding, header, hideFooter, icon, illoGroup, imagery, kkeys, logo, main, message, optionContent, optionText, removeContent, scrolledDown, showContent, showFooter, signup, surveyOption, tab, transitionContent, ubi, win, wrapper;
     header = $(".headline");
     message = $(".message");
     logo = $(".logo");
@@ -93,7 +93,6 @@
       return doc.scrollTop() + win.height() > doc.height() - 50;
     };
     hideFooter = function(evt) {
-      console.log("hide " + evt);
       footer.addClass("hide");
       tab.addClass("hide");
       if (evt !== "half") {
@@ -103,7 +102,6 @@
       }
     };
     showFooter = function() {
-      console.log("show");
       tab.addClass("hide rotate");
       return setTimeout(function() {
         footer.removeClass("hide");
@@ -185,16 +183,17 @@
     });
     if (window.addEventListener) {
       kkeys = [];
-      konami = "38,38,40,40,37,39,37,39,66,65";
-      return window.addEventListener("keydown", (function(_this) {
-        return function(e) {
-          kkeys.push(e.keyCode);
-          if (kkeys.toString().indexOf(konami) >= 0) {
-            sessionStorage.setItem("frame", 0);
-            return kkeys = [];
-          }
-        };
-      })(this), true);
+      ubi = "85,66,73";
+      return window.addEventListener("keydown", function(e) {
+        var goToFrame;
+        kkeys.push(e.keyCode);
+        if (kkeys.toString().indexOf(ubi) >= 0) {
+          goToFrame = e.keyCode;
+          console.log(goToFrame);
+          kkeys = [];
+          return sessionStorage.setItem("frame", goToFrame);
+        }
+      }, true);
     }
   });
 

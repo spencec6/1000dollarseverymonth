@@ -265,13 +265,11 @@ $(document).ready ->
     return doc.scrollTop() + win.height() > doc.height() - 50
 
   hideFooter = (evt) ->
-    console.log "hide " + evt
     footer.addClass("hide")
     tab.addClass("hide")
     setTimeout (-> tab.removeClass("hide rotate")), 1000 unless evt == "half"
 
   showFooter = ->
-    console.log "show"
     tab.addClass("hide rotate")
     setTimeout ->
       footer.removeClass("hide")
@@ -347,10 +345,12 @@ $(document).ready ->
 
   if window.addEventListener
     kkeys = []
-    konami = "38,38,40,40,37,39,37,39,66,65"
-    window.addEventListener "keydown", (e) =>
+    ubi = "85,66,73"
+    window.addEventListener "keydown", (e) ->
       kkeys.push(e.keyCode)
-      if kkeys.toString().indexOf(konami) >= 0
-        sessionStorage.setItem("frame", 0)
+      if kkeys.toString().indexOf(ubi) >= 0
+        goToFrame = e.keyCode
+        console.log goToFrame
         kkeys = []
+        sessionStorage.setItem("frame", goToFrame)
     , true
