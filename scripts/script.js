@@ -81,8 +81,11 @@
         sessionStorage.setItem("frame", f++);
         return setTimeout((function(_this) {
           return function() {
+            footer.removeClass("triggered");
             if (scrolledDown()) {
               showFooter();
+            } else {
+              $(".scroll-downs").fadeIn(1000);
             }
             return main.removeClass("hide");
           };
@@ -178,7 +181,11 @@
     });
     win.scroll(function() {
       if (scrolledDown()) {
-        return showFooter();
+        $(".scroll-downs").fadeOut(1000);
+        if (footer.hasClass("hide") && !footer.hasClass("triggered")) {
+          showFooter();
+          return footer.addClass("triggered");
+        }
       }
     });
     if (window.addEventListener) {

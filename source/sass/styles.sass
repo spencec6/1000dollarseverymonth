@@ -157,6 +157,34 @@ main
 .content
   width: 50%
 
+.scroll-downs
+  position: fixed
+  top: 50%
+  left: 4%
+  transform: translateY(-50%)
+  width: 34px
+  height: 55px
+  &.hide
+    display: none
+
+.mousey
+  width: 3px
+  padding: 10px 15px
+  height: 35px
+  border: 2px solid #fff
+  border-radius: 25px
+  opacity: 0.75
+
+.scroller
+  width: 3px
+  height: 10px
+  border-radius: 25%
+  background-color: #fff
+  animation-name: scroll
+  animation-duration: 2.2s
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94)
+  animation-iteration-count: infinite
+
 .text-wrapper
   text-shadow: 0 3px 15px rgba(shade($futa, 5%), 0.4)
   color: #fff
@@ -213,8 +241,8 @@ main
   height: $gu*8
 @media #{$computer}
   .imagery, .illo-background
-    width: $gu*5
-    height: $gu*5
+    width: $gu*6
+    height: $gu*6
 @media #{$portrait}
   .imagery
     position: inherit !important
@@ -575,6 +603,16 @@ body
 //////////////////////////
 // KEYFRAMES ANIMATIONS //
 //////////////////////////
+
+@keyframes scroll
+  0%
+    opacity: 0
+  10%
+    transform: translateY(0)
+    opacity: 1
+  100%
+    transform: translateY(15px)
+    opacity: 0
 
 @keyframes blow
   0%, 100%

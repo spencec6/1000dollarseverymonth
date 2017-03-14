@@ -256,7 +256,8 @@ $(document).ready ->
       sessionStorage.setItem("frame", f++)
       # save current frame as a session state
       setTimeout =>
-        showFooter() if scrolledDown()
+        footer.removeClass("triggered")
+        if scrolledDown() then showFooter() else $(".scroll-downs").fadeIn(1000)
         main.removeClass("hide")
       , 500
     , 2000
@@ -341,7 +342,11 @@ $(document).ready ->
     transitionContent("end1")
 
   win.scroll ->
-    showFooter() if scrolledDown()
+    if scrolledDown()
+      $(".scroll-downs").fadeOut(1000)
+      if footer.hasClass("hide") && !footer.hasClass("triggered")
+        showFooter()
+        footer.addClass("triggered")
 
   if window.addEventListener
     kkeys = []
