@@ -14,3 +14,7 @@ In terms of the brand, it needs to be friendly, engaging and delightful to the u
 It will be key to keep the user engaged through delightful micro-interactions as more and more content is brought forth. The content should be light and easy to read, with external links for more info to keep the user moving forward. By the end of it, the user will either choose to “sign up” or decline. Since there isn’t a way for them to just “sign up” to basic income, this will direct them to the next best thing; a list of actionable items they can take part in to help implement UBI in Canada. 
 
 To begin, the strategy will simply be to meet the short term goal to prove that the idea is working. I want to keep my “acceptance” or conversion rate above 50%, and to do this, I will need to facilitate discussion further from the users as to why they did or why they didn’t “convert”. This will help me adjust the content as time goes on to make sure that I can address any common questions that aren’t currently included, or double down on the content that is working.
+
+---
+
+Preview website here: https://spencec6.github.io/1000dollarseverymonth/
