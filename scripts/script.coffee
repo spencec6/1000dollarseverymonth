@@ -45,15 +45,46 @@ CONTENT.message = [
 <span class='description'>(cost per month)</span></div><span class='single'>$35,160,000,000</span><span class='description'>(cost per month)</span><br>× 12 <span class='description'>(months in a year)</span><br><div class='result'><span class='single'>$4,219,200,000,000</span> <span class='description'>(annual expense)</span></div> <strong><span class='single'>$421,920,000,000</span></strong> </div>
   Oh dear! Where would we ever scrape together that kind of cash? Some kind of national lottery service?
   These are a few main revenue sources these economists have proposed:
-  SOURCE 1: Dissolve Ineffective Bureaucracy
-  Currently, it’s estimated that for all tax revenue that goes towards social programs, such as Employment Insurance, Minimum Wage, Welfare, Public Housing, etc, 2/3s of that money is spent on administering the money. This means for every $100 you pay towards social services through tax, approximately only $33 of that is being spent on the people it is intended to go to. It’s estimated that replacing these programs with the Universal Basic Income would save over {$400,000,000 per year}.
-  SOURCE 2:
-  SOURCE 3:
-  SOURCE 4:
+  <div clas='rev-sources'>
+    <div class='row'>
+      <div class='icon'></div>
+      <div class='source'>
+        <span class='source-header'>Source: 1</span>
+        <span class='source-title'>Dissolve Ineffective Bureaucracy</span>
+        Currently, it’s estimated that for all tax revenue that goes towards social programs, such as Employment Insurance, Minimum Wage, Welfare,
+        Public Housing, etc, 2/3s of that money is spent on administering the money. This means for every $100 you pay towards social services through tax, approximately only $33 of that is being spent on the people it is intended to go to. It’s estimated
+        that replacing these programs with the Universal Basic Income would save over {$400,000,000 per year}.
+      </div>
+    </div>
+    <div class='row'>
+      <div class='icon'></div>
+      <div class='source'>
+        <span class='source-header'>Source: 2</span>
+        <span class='source-title'>Savings From Costly Poverty</span>
+        Poverty is not only costly to the individual, but it’s extremely costly to the country. By providing upfront, proactive measures to poverty, it’s expected that this would save over xx.
+      </div>
+    </div>
+    <div class='row'>
+      <div class='icon'></div>
+      <div class='source'>
+        <span class='source-header'>Source: 3</span>
+        <span class='source-title'>Paying 1/3rd to Under 18</span>
+        There are 7.5 million people under the age of 18 in Canada. If we paid them 1/3rd of the proposed Universal Basic Income, that would reduce the necessary funding by over  $2,500,000,000 and also act as a balance against families who may want to have children they cannot afford.
+      </div>
+    </div>
+    <div class='row'>
+      <div class='icon'></div>
+      <div class='source'>
+        <span class='source-header'>Source: 4</span>
+        <span class='source-title'>Flat Tax</span>
+        Taxes are way too complicated, and everything we can do to simplify them would be --all things equal-- a net gain in the value of human society. A Universal Basic Income, coupled with a flat tax, is capable of mimicking all aspects of our current progressive (bracketed) taxation scheme, but without brackets. Everyone will, at the start of each year, know precisely what their taxes will look like. All marginal tax rates will be identical, while the Universal Basic Income ensures that net-taxes follow a progressive-tax structure. 
+      </div>
+    </div>
+  </div>
   Ok, well that felt kind of good didn’t it? Kind of like some post spring cleaning satisfaction.
   So, where are we at right now?
   We now understand that we are able to give every {Canadian} <b>$1000</b> every month with some restructuring.
-  And we understand that people aren’t going to just use this money to become lazy, no good, system suckers.
+  And we understand that people aren’t going to just use this money to become “lazy, no good, system suckers”.
   But, you’re a very critical thinker, and I’m assuming you still have more questions.
   Perhaps, you believe that this would inflate our economy?",
 
