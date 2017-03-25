@@ -18,3 +18,7 @@ To begin, the strategy will simply be to meet the short term goal to prove that 
 ---
 
 Preview website here: https://spencec6.github.io/1000dollarseverymonth/
+
+---
+
+Script in progress [here](https://docs.google.com/document/d/1Cfh-gUJ52osXQburFvw0oas_6kfwUXnhd6BuoS1-0xI).
