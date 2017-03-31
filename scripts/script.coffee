@@ -19,8 +19,7 @@ CONTENT.header = [
 CONTENT.message = [
   "How would you like to receive <b>$1000</b> every month?",
 
-  "Well, there is a little bit of a catch, tbh. There are some things you’ll need to consider before, and it
-  will require a little bit of work after that.",
+  "Well yes, there is a bit of a catch. There are some things you’ll need to consider before, and it will require a little bit of work after that.",
 
   "<p>Ok, great. But before we start, we just need to make sure we’re not just throwing the money
   down the drain.</p><p>When you receive your <b>$1000</b> every month, you’re not just going to quit your
@@ -34,11 +33,7 @@ CONTENT.message = [
   <p>Anyways, I’m assuming you’re still a little puzzled about this idea of receiving <b>$1000</b> a month for
   no apparent reason. Am I right?</p>",
 
-  "Yes, you’ve been told this patronizingly for most of your life, I’m sure. Or perhaps, you’re the one
-  spreading this wisdom. It is very true. However, there have actually been a lot of very smart and
-  experienced economists who have actually designed a system where this money could be accessible to
-  every citizen of {Canada}. There is some restructuring involved, and your taxes would likely increase
-  a couple %. However, nearly every citizen would experience a positive increase in overall wealth.",
+  "Yes, you’ve been told this patronizingly for most of your life, I’m sure. It is very true. However, there have actually been many who have actually proposed a system where this money could be accessible to every citizen of Canada. There is some restructuring involved, and your taxes could possibly increase by a couple percent. However, nearly every citizen would experience at least a small positive increase in overall wealth.",
 
   "To give every Canadian <b>$1000</b> every month for one year, it would cost:
   <div class='numerals'><span class='single'>35,160,000</span><span class='description'>(Canadian population)</span><br> × 1000 <span class='description'>($1000 dollars each)</span><br><div class='result'><span class='single'>$35,160,000,000</span>

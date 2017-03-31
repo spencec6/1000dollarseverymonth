@@ -74,6 +74,19 @@ $gu: 50px
 .mainNavMenu
   width: $gu
   height: $gu
+  cursor: pointer
+  &:hover .hamburger-bar
+    background-color: shade($turquoise, 10%)
+
+.hamburger-bar
+  transition: background-color 0.25s ease
+  width: 30px
+  height: 4px
+  margin: 5px auto 0
+  background-color: $turquoise
+  border-radius: 2px
+  &:first-child
+    margin-top: 14px
 
 .header
   z-index: 10
