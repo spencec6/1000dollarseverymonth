@@ -45,7 +45,7 @@ CONTENT.message = [
 <span class='description'>(cost per month)</span></div><span class='single'>$35,160,000,000</span><span class='description'>(cost per month)</span><br>× 12 <span class='description'>(months in a year)</span><br><div class='result'><span class='single'>$4,219,200,000,000</span> <span class='description'>(annual expense)</span></div> <strong><span class='single'>$421,920,000,000</span></strong> </div>
   Oh dear! Where would we ever scrape together that kind of cash? Some kind of national lottery service?
   These are a few main revenue sources these economists have proposed:
-  <div clas='rev-sources'>
+  <div class='rev-sources'>
     <div class='row'>
       <div class='icon'></div>
       <div class='source'>
@@ -77,7 +77,7 @@ CONTENT.message = [
       <div class='source'>
         <span class='source-header'>Source: 4</span>
         <span class='source-title'>Flat Tax</span>
-        Taxes are way too complicated, and everything we can do to simplify them would be --all things equal-- a net gain in the value of human society. A Universal Basic Income, coupled with a flat tax, is capable of mimicking all aspects of our current progressive (bracketed) taxation scheme, but without brackets. Everyone will, at the start of each year, know precisely what their taxes will look like. All marginal tax rates will be identical, while the Universal Basic Income ensures that net-taxes follow a progressive-tax structure. 
+        Taxes are way too complicated, and everything we can do to simplify them would be --all things equal-- a net gain in the value of human society. A Universal Basic Income, coupled with a flat tax, is capable of mimicking all aspects of our current progressive (bracketed) taxation scheme, but without brackets. Everyone will, at the start of each year, know precisely what their taxes will look like. All marginal tax rates will be identical, while the Universal Basic Income ensures that net-taxes follow a progressive-tax structure.
       </div>
     </div>
   </div>
@@ -85,8 +85,8 @@ CONTENT.message = [
   So, where are we at right now?
   We now understand that we are able to give every {Canadian} <b>$1000</b> every month with some restructuring.
   And we understand that people aren’t going to just use this money to become “lazy, no good, system suckers”.
-  But, you’re a very critical thinker, and I’m assuming you still have more questions.
-  Perhaps, you believe that this would inflate our economy?",
+  <p>But, you’re a very critical thinker, and I’m assuming you still have more questions.
+  Perhaps, you believe that this would inflate our economy?</p>",
 
   "The program cuts we mention above don’t have to be all or nothing.
   For example, disability and pensions can exist in smaller forms on top of UBI and still
@@ -192,15 +192,16 @@ CONTENT.options = [
     ["<span class='answer'>No,</span><span class='description'>this actually all seems quite feasible. Sign me up!</span>", "end1"]
   ]
   [
-    ["<span class='answer'>Ok,</span><span class='description'>that makes sense, but I'm still concerned about inflation.</span>", 8],
+    ["<span class='answer'>Ok,</span><span class='description'>that makes sense, but I'm still concerned about inflation.</span>", 7],
     ["<span class='answer'>Yeah,</span><span class='description'>that seems reasonable. Sign me up!</span>", "end1"]
   ]
   [
-    ["<span class='answer'>Yes,</span><span class='description'>you’re a mind reader. Tell me why it’s necessary.</span>", 9],
+    ["<span class='answer'>Yes,</span><span class='description'>you’re a mind reader. Tell me why it’s necessary.</span>", 8],
     ["<span class='answer'>Well,</span><span class='description'>it already sounds good to me. Sign me up!</span>", "end1"]
   ]
   [
-    ["<span class='answer'>Ok,</span><span class='description'>I'm convinced. Sign me up!</span>", "end1"]
+    ["<span class='answer'>Ok,</span><span class='description'>I'm convinced. Sign me up!</span>", "end1"],
+    ["<span class='answer'>No,</span><span class='description'>I'm not interested.</span>", "end2"]
   ],
   [
     ["",""]
@@ -347,6 +348,8 @@ $(document).ready ->
 
     surveyOption.removeClass("animate select")
     surveyOption.eq(idx).addClass("animate select")
+    currentFrame = sessionStorage.getItem("frame")
+    ga('send', 'event', 'Options', 'select', 'frame: #{currentFrame]', 'selection: #{idx + 1}')
 
     setTimeout ->
       hideFooter('half')
@@ -362,14 +365,17 @@ $(document).ready ->
     setTimeout (-> tab.toggleClass("hide rotate")), 1000
 
   logo.click ->
+    hideFooter('half')
     transitionContent(0)
 
   icon.click ->
     idx = icon.index(this)
     if icon.eq(idx).hasClass("revealed") && !icon.eq(idx).hasClass("selected")
+      hideFooter('half')
       transitionContent(idx)
 
   signup.click ->
+    hideFooter('half')
     transitionContent("end1")
 
   win.scroll ->
@@ -385,8 +391,10 @@ $(document).ready ->
     window.addEventListener "keydown", (e) ->
       kkeys.push(e.keyCode)
       if kkeys.toString().indexOf(ubi) >= 0
-        goToFrame = e.keyCode
-        console.log goToFrame
-        kkeys = []
-        sessionStorage.setItem("frame", goToFrame)
+        window.addEventListener "keydown", (d) ->
+          goToFrame = Number(String.fromCharCode(d.keyCode))
+          if goToFrame < 9
+            hideFooter('half')
+            transitionContent(goToFrame)
+          kkeys = []
     , true
