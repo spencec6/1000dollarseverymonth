@@ -32,13 +32,12 @@ CONTENT.message = [
   <p>Anyways, I’m assuming you’re still a little puzzled about this idea of receiving <b>$1000</b> a month for
   no apparent reason. Am I right?</p>",
 
-  "Yes, you’ve been told this patronizingly for most of your life, I’m sure. It is very true. However, there have actually been many who have actually proposed a system where this money could be accessible to every citizen of Canada. There is some restructuring involved, and your taxes could possibly increase by a couple percent. However, nearly every citizen would experience at least a small positive increase in overall wealth.",
+  "Yes, I’m sure you’ve been told this patronizingly for most of your life. However, there is actually a system which has been proposed where this money could be accessible to every citizen of Canada. There is some restructuring involved, and your taxes could possibly increase by a couple percent. However, this would ensure that every single citizen is able cover their necessities of life.",
 
   "To give every Canadian <b>$1000</b> every month for one year, it would cost:
   <div class='numerals'><span class='single'>35,160,000</span><span class='description'>(Canadian population)</span><br> × 1000 <span class='description'>($1000 dollars each)</span><br><div class='result'><span class='single'>$35,160,000,000</span>
 <span class='description'>(cost per month)</span></div><span class='single'>$35,160,000,000</span><span class='description'>(cost per month)</span><br>× 12 <span class='description'>(months in a year)</span><br><div class='result'><span class='single'>$4,219,200,000,000</span> <span class='description'>(annual expense)</span></div> <strong><span class='single'>$421,920,000,000</span></strong> </div>
-  Oh dear! Where would we ever scrape together that kind of cash? Some kind of national lottery service?
-  These are a few main revenue sources these economists have proposed:
+  Oh dear! Where would we ever scrape together that kind of cash? These are a few main revenue sources these economists have proposed:
   <div class='rev-sources'>
     <div class='row'>
       <div class='icon'></div>
@@ -75,7 +74,6 @@ CONTENT.message = [
       </div>
     </div>
   </div>
-  Ok, well that felt kind of good didn’t it? Kind of like some post spring cleaning satisfaction.
   So, where are we at right now?
   We now understand that we are able to give every {Canadian} <b>$1000</b> every month with some restructuring.
   And we understand that people aren’t going to just use this money to become “lazy, no good, system suckers”.
