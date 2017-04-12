@@ -29,7 +29,6 @@ CONTENT.message = [
   This actually makes quite a bit of sense, because there have been many studies to show us that we tend to be
   <a href='//www.ted.com/talks/dan_pink_on_motivation'>driven by internal motivators</a> such as mastery, purpose and autonomy. On top of this, there have actually
   been many experiments where this has already happened, and <a href='http://qz.com/765902/ubi-wouldnt-mean-everyone-quits-working/'>the results</a> have been very similar.</p>
-  <p>Also, when welfare subsidies are contingent on conditions like employment, income level, number of hours worked, family status, etc, there are opportunities to game the system, either by illegally lying (fraud) or by simply obeying the economic incentives put in front of you (waste/abuse).</p><p>These cause losses of real economic value, which are paid for by every taxpayer. Removing this incentive structure allows confidence in the welfare system's ability to reach people exactly as intended.</p>
   <p>Anyways, I’m assuming you’re still a little puzzled about this idea of receiving <b>$1000</b> a month for
   no apparent reason. Am I right?</p>",
 
@@ -266,7 +265,6 @@ $(document).ready ->
       o++
     if isNaN(f)
       f = goToEnding(f)
-      transitionFooter()
     setTimeout ->
       header.html(CONTENT.header[f])
       message.html(CONTENT.message[f])
